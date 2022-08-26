@@ -11,10 +11,11 @@ import { useField } from '@unform/core';
 
 interface InputProps {
   name: string;
-  icon: ElementType;
+  icon?: ElementType;
+  placeholder: string;
 }
 
-const Input = ({ name, icon: Icon, ...rest }: InputProps) => {
+const Input = ({ name, icon: Icon, placeholder, ...rest }: InputProps) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const [isFocused, setIsFocused] = useState(false);
@@ -46,6 +47,7 @@ const Input = ({ name, icon: Icon, ...rest }: InputProps) => {
 
       <input
         onFocus={handleInputFocus}
+        placeholder={placeholder}
         onBlur={handleInputBlur}
         defaultValue={defaultValue}
         ref={inputRef}

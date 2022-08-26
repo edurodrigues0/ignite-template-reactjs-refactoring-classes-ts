@@ -17,12 +17,20 @@
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
     },
     {
-      "id": 3,
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
       "name": "A la Camarón",
-      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
       "price": "25.90",
+      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
+      "available": true,
+      "id": 3
+    },
+    {
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "name": "Ao molho branco",
+      "price": "25.90",
+      "description": "Macarrão ao molho branco a base de leite condensado, mozarela, alho, cheiro-verde",
       "available": false,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+      "id": 4
     }
   ]
 }
